@@ -1,6 +1,6 @@
 import numpy as np
 
-from relperm.relperm import krw, s_eff
+from scalflow.relperm import krw, s_eff
 
 
 def test_s_eff_basic():

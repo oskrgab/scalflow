@@ -1,7 +1,7 @@
 [project]
-name = "relperm"
-version = "0.1.0"
-description = "Add your description here"
+name = "scalflow"
+version = "0.2.0"
+description = "Special Core Analysis (SCAL) and petrophysics toolkit: relative permeability, capillary pressure, core data, and well logs."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
