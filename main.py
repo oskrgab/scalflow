@@ -1,6 +1,6 @@
 def main():
     """Print a greeting message."""
-    print("Hello from relperm!")
+    print("Hello from scalflow!")
 
 
 if __name__ == "__main__":

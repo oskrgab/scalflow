@@ -1,6 +1,6 @@
-# Relperm Documentation
+# scalflow Documentation
 
-Welcome to the **relperm** documentation!
+Welcome to the **scalflow** documentation!
 
 This package provides tools for petroleum engineering calculations, particularly focused on relative permeability and capillary pressure computations.
 
@@ -13,7 +13,7 @@ This package provides tools for petroleum engineering calculations, particularly
 
 ## Quick Start
 
-Check out the [Getting Started](getting-started.md) guide to begin using relperm.
+Check out the [Getting Started](getting-started.md) guide to begin using scalflow.
 
 ## API Reference
 

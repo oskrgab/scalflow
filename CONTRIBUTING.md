@@ -1,6 +1,6 @@
-# Contributing to Relperm
+# Contributing to scalflow
 
-Thank you for your interest in contributing to Relperm! This document provides guidelines and instructions for contributing to this petroleum engineering library.
+Thank you for your interest in contributing to scalflow! This document provides guidelines and instructions for contributing to this Special Core Analysis & petrophysics library.
 
 ## Table of Contents
 
@@ -35,8 +35,8 @@ This project is intended to be a welcoming space for collaboration. We expect al
 
 1. **Fork and clone the repository:**
    ```bash
-   gh repo fork oskrgab/relperm --clone
-   cd relperm
+   gh repo fork oskrgab/scalflow --clone
+   cd scalflow
    ```
 
 2. **Install UV** (if not already installed):
@@ -218,7 +218,7 @@ Use these prefixes for your branches:
    git commit -m "Add feature"
    # Pre-commit automatically runs: ruff format, ruff check, ty check
    # You still need to run tests manually:
-   uv run pytest --cov=relperm
+   uv run pytest --cov=scalflow
    ```
 
    **Option B: Run checks manually before committing**
@@ -226,7 +226,7 @@ Use these prefixes for your branches:
    uv run ruff format .                   # Auto-format code
    uv run ruff check --fix .              # Fix linting issues
    uv run ty check                        # Type check
-   uv run pytest --cov=relperm            # Run tests with coverage
+   uv run pytest --cov=scalflow            # Run tests with coverage
    ```
 
    **Note:** Tests are NOT run by pre-commit hooks (too slow). Always run tests manually before pushing.
@@ -420,8 +420,8 @@ All contributions must maintain test coverage above 90%.
 
 **Check coverage:**
 ```bash
-uv run pytest --cov=relperm --cov-report=term-missing
-uv run pytest --cov=relperm --cov-report=html  # HTML report in htmlcov/
+uv run pytest --cov=scalflow --cov-report=term-missing
+uv run pytest --cov=scalflow --cov-report=html  # HTML report in htmlcov/
 ```
 
 ### Testing Strategy
@@ -549,7 +549,7 @@ Documentation is automatically deployed to GitHub Pages on release.
 
 3. **Run tests manually** (not covered by pre-commit):
    ```bash
-   uv run pytest --cov=relperm
+   uv run pytest --cov=scalflow
    ```
 
 4. **Ensure all tests pass** and **coverage is >90%**
@@ -563,7 +563,7 @@ Documentation is automatically deployed to GitHub Pages on release.
 uv run ruff format .
 uv run ruff check --fix .
 uv run ty check
-uv run pytest --cov=relperm
+uv run pytest --cov=scalflow
 ```
 
 ### Creating a PR
@@ -628,7 +628,7 @@ Releases are managed by maintainers. The process is:
 # Development
 uv sync                                    # Install/sync dependencies
 uv run pytest                              # Run tests
-uv run pytest --cov=relperm --cov-report=html  # Test with coverage report
+uv run pytest --cov=scalflow --cov-report=html  # Test with coverage report
 uv run ruff format .                       # Format code
 uv run ruff check --fix .                  # Lint and auto-fix
 uv run ty check                            # Type check
@@ -650,9 +650,9 @@ gh pr create --base dev                    # Create PR to dev
 
 ## Getting Help
 
-- **Issues**: Open a [GitHub issue](https://github.com/oskrgab/relperm/issues) for bugs or feature requests
-- **Discussions**: Use [GitHub Discussions](https://github.com/oskrgab/relperm/discussions) for questions
-- **Documentation**: Check the [official docs](https://oskrgab.github.io/relperm)
+- **Issues**: Open a [GitHub issue](https://github.com/oskrgab/scalflow/issues) for bugs or feature requests
+- **Discussions**: Use [GitHub Discussions](https://github.com/oskrgab/scalflow/discussions) for questions
+- **Documentation**: Check the [official docs](https://oskrgab.github.io/scalflow)
 
 ## Project Goals
 
@@ -663,4 +663,4 @@ This library aims to:
 - Include **public datasets** for easy access
 - Support the **petroleum engineering community** with quality open-source tools
 
-Thank you for contributing to Relperm! 🛢️
+Thank you for contributing to scalflow! 🛢️

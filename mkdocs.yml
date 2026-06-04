@@ -1,10 +1,10 @@
-site_name: Relperm Documentation
-site_description: Documentation for the relperm package
+site_name: scalflow Documentation
+site_description: Documentation for the scalflow package
 site_author: Oscar Cortez
 
 # Repository
-repo_url: https://github.com/oskrgab/relperm
-repo_name: oskrgab/relperm
+repo_url: https://github.com/oskrgab/scalflow
+repo_name: oskrgab/scalflow
 
 # Theme configuration
 theme:
